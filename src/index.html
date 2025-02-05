@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>gowon.dev</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.3/css/bulma.min.css"
+		integrity="sha256-RwYNyYLkMTjyYn8FRzVzQFtHXuHg9dpfkPCuf6j2XDM=" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+		integrity="sha256-Yg7qJLDO4djMg5XIDylc8ue2+rliSTwmtJqNQrY6Tck=" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ninocamdzic/bgzy@master/css/bgzy.css">
+
+	<style>
+		@media(max-width: 500px) {
+			.reverse-columns {
+				flex-direction: column-reverse;
+				display: flex;
+			}
+		}
+
+		.titled {
+			font-family: 'Merriweather', serif !important;
+			font-size: 58px !important;
+			font-weight: 400 !important;
+			line-height: 64px !important;
+		}
+
+		.subtitled {
+			font-family: 'Merriweather', serif !important;
+			font-size: 22px !important;
+			font-weight: 400 !important;
+			line-height: 36px !important;
+		}
+
+		.is-circular {
+			border-radius: 50%;
+		}
+
+		.bx>.label {
+			display: none;
+		}
+
+		.bgzy .bg {
+			filter: blur(3px) brightness(65%);
+		}
+	</style>
+</head>
+
+<body>
+	<section class="hero is-fullheight">
+		<div class="hero-body ">
+			<div class="container">
+				
+				<div class="columns is-vcentered reverse-columns">
+					
+					<div class="column
+          is-10-mobile 
+          is-10-tablet 
+          is-5-desktop 
+          is-5-widescreen 
+          is-5-fullhd " data-aos="fade-down">
+		  
+						<h1 class="title titled is-1">
+							My name is Gowon Patterson.<br />
+							I <span id="typewriter"></span>
+						</h1>
+						<div class="subtitled mb-6">
+							Web design and software development have been passions of mine since the days of GORILLA.BAS
+							and MSN Groups. I survived both great browser wars, Yahoo! search, and Macromedia. I
+							currently work in cybersecurity at <a
+								href="https://www.opentext.com/products/fortify-on-demand" target="_blank">OpenText</a>. Reach out to me
+							through my <a href="mailto:contact@gowon.dev?subject=Greetings%20Gowon">e-mail</a> and
+							social accounts.
+						</div>
+
+						<div class="buttons are-large">
+							<a href="https://github.com/gowon" target="_blank" class="button is-circular">
+								<span class="icon">
+									<i class='bx bxl-github'><span class="label">GitHub</span></i>
+								</span>
+							</a>
+							<a href="https://www.linkedin.com/in/gowon" target="_blank" class="button is-circular">
+								<span class="icon">
+									<i class='bx bxl-linkedin-square'><span class="label">LinkedIn</span></i>
+								</span>
+							</a>
+							<a href="mailto:contact@gowon.dev?subject=Greetings%20Gowon" class="button is-circular">
+								<span class="icon">
+									<i class='bx bx-envelope'><span class="label">E-mail</span></i>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div data-aos="fade-right" class="column
+          is-10-mobile 
+          is-10-tablet 
+          is-4-desktop 
+          is-7-widescreen 
+          is-4-fullhd is-offset-1-fullhd">
+						<figure class="image is-square">
+							<img src="./images/polygowon-animated.svg" class="is-white" />
+						</figure>
+					</div>
+
+				</div>
+				<div>
+					<small>&copy; Gowon, Ltd. Co. 'til infinity. Made with <i id="heart" class="bx bxs-heart"></i> in
+						Atlanta.</small>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2/dist/core.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/ninocamdzic/bgzy@master/bgzy.js"></script>
+
+	<script>
+		new Typewriter('#typewriter', {
+			strings: ['create solutions.', 'constantly tinker.', 'love design.', 'do dope things.'],
+			autoStart: true,
+			loop: true,
+			pauseFor: 3000
+		});
+	</script>
+	<script>
+		AOS.init({
+			once: true
+		});
+	</script>
+	<script>
+		bgzy.init([
+			["https://images.unsplash.com/photo-1547582061-a3e1aa4164ee", "fadeOut"],
+			["https://images.unsplash.com/photo-1511447333015-45b65e60f6d5", "zoomFadeOut"],
+			["https://images.unsplash.com/photo-1503876466-1fc5143eda57", "slideLeft"]
+		], {
+			timeout: 30000,
+			showTicker: false
+		});
+	</script>
+</body>
+
+</html>
