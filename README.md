@@ -1,4 +1,12 @@
-# gowon-dev
+# This is Gowon Patterson's landing page
+
+## Dependencies
+
+### Font Faces
+
+Merriweather and Merriweather Sans
+Designed by Sorkin Type
+<https://fonts.google.com/specimen/Merriweather>
 
 ## References
 
@@ -13,3 +21,4 @@
 - <https://github.com/floating-ui/floating-ui>
 - <https://github.com/eugeniosegala/easy_background>
 - <https://unsplash.com/documentation#getting-started>
+- <https://svgartista.net/>

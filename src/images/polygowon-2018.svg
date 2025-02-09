@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 206 206" width="206" height="206" xmlns="http://www.w3.org/2000/svg">
-  <g id="polygowon" transform="matrix(1, 0, 0, 1, -29.05746, -129.85117)">
-    <path d="m 31.529841,232 c 0,55.22844 44.77155,100 99.999989,100 55.22848,0 100.00003,-44.77156 100.00003,-100 z" id="polygowon-half-ellipse-bottom" style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 2px;"/>
-    <path id="polygowon-half-ellipse-top" d="m 202.24054,161.28931 c -39.05241,-39.0524 -102.36895,-39.05241 -141.421354,0 -39.052432,39.05243 -39.052426,102.36897 -2.2e-5,141.42138 z" style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 2px;"/>
-    <path d="m 131.52987,207 c 0,0 99.99999,0 99.99999,0 0,0 0,125 0,125 0,0 -99.99999,0 -99.99999,0 0,0 0,-125 0,-125 z" id="polygowon-rectangle" style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 2px;"/>
-  </g>
-</svg>

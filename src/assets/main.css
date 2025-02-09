@@ -1,0 +1,31 @@
+/* reverse columns on small screens to bring logo to the top */
+@media screen and (max-width:768px) {
+    .reverse-columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
+
+.titled {
+    font-family: 'Merriweather', serif !important;
+}
+
+.subtitled {
+    font-family: 'Merriweather Sans', serif !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* bulma does not provide CSS for circular buttons */
+.is-circular {
+    border-radius: 50%;
+}
+
+/* hide icon labels */
+.bx>.label {
+    display: none;
+}
+
+.bgzy .bg {
+    filter: blur(3px) brightness(65%);
+}
